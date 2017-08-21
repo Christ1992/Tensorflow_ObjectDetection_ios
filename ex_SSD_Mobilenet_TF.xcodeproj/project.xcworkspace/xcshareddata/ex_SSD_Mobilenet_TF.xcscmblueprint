@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A4282102BC83C49F694362D3FF73993F2FC1A21A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "683642A24201C548E887B29B172A70AF2CD0893D" : 9223372036854775807,
+    "A4282102BC83C49F694362D3FF73993F2FC1A21A" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "507E6B80-D3A8-487E-ADFF-0BFB5C42B76F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "683642A24201C548E887B29B172A70AF2CD0893D" : "..\/tensorflowmodels",
+    "A4282102BC83C49F694362D3FF73993F2FC1A21A" : "iOS_Tensorflow_ObjectDetection_Example-master\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ex_SSD_Mobilenet_TF",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ex_SSD_Mobilenet_TF.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/tensorflow\/models.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "683642A24201C548E887B29B172A70AF2CD0893D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Christ1992\/Tensorflow_ObjectDetection_ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A4282102BC83C49F694362D3FF73993F2FC1A21A"
+    }
+  ]
+}

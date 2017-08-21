@@ -15,8 +15,8 @@
 
 @implementation ViewController
 
-static NSString* image_file = @"image2.jpg";
-static NSString* image_file_name = @"image2";
+static NSString* image_file = @"000001.jpg";
+static NSString* image_file_name = @"000001";
 static NSString* image_file_type = @"jpg";
 
 - (void)viewDidLoad {
@@ -42,10 +42,12 @@ static NSString* image_file_type = @"jpg";
     imgView.contentMode =  UIViewContentModeScaleAspectFit;
 
     [self.view addSubview:imgView];
+    [self.view sendSubviewToBack:imgView];
 }
 
 
-- (IBAction)runButton:(id)sender {
+- (IBAction)runButton:(id)runButton {
+    
     [self.view willRemoveSubview:imgView];
     
     void * image_data = nullptr;
@@ -145,7 +147,7 @@ static NSString* image_file_type = @"jpg";
     CGContextRelease(context);
     CFRelease(toCGImage);
     free(image_data);
-    
+    [self.view bringSubviewToFront:runButton];
 }
 
 - (void)didReceiveMemoryWarning {

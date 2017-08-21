@@ -12,7 +12,7 @@
     UIImageView *imgView;
 }
 
-- (IBAction)runButton:(id)sender;
+- (IBAction)runButton:(id)runButton;
 
 @end
 

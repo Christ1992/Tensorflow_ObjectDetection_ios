@@ -12,6 +12,7 @@
 		AF4015241F4A5E5C00E8AD0B /* kid_new_label_map.txt in Resources */ = {isa = PBXBuildFile; fileRef = AF4015231F4A5E5C00E8AD0B /* kid_new_label_map.txt */; };
 		AF729B131F4919CE006D6C92 /* libprotobuf-lite.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF729B111F4919CE006D6C92 /* libprotobuf-lite.a */; };
 		AF729B141F4919CE006D6C92 /* libprotobuf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF729B121F4919CE006D6C92 /* libprotobuf.a */; };
+		AFD60CB51F4AED650052E974 /* 000001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AFD60CB41F4AED650052E974 /* 000001.jpg */; };
 		CB13F7E01F0DC7E300422EB4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB13F7DF1F0DC7E300422EB4 /* main.m */; };
 		CB13F7E31F0DC7E300422EB4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB13F7E21F0DC7E300422EB4 /* AppDelegate.m */; };
 		CB13F7E61F0DC7E300422EB4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB13F7E51F0DC7E300422EB4 /* ViewController.m */; };
@@ -28,8 +29,6 @@
 		CB13F82A1F0DDACE00422EB4 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB13F8291F0DDACE00422EB4 /* CoreImage.framework */; };
 		CB13F82C1F0DDADC00422EB4 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB13F82B1F0DDADC00422EB4 /* CoreMedia.framework */; };
 		CB13F82E1F0DDAE700422EB4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB13F82D1F0DDAE700422EB4 /* CoreGraphics.framework */; };
-		E752A9F01F1B8FB60025E6D5 /* mscoco_label_map.txt in Resources */ = {isa = PBXBuildFile; fileRef = E752A9EF1F1B8FB60025E6D5 /* mscoco_label_map.txt */; };
-		E752A9F21F1BA5EF0025E6D5 /* frozen_inference_graph.pb in Resources */ = {isa = PBXBuildFile; fileRef = E752A9F11F1BA5EF0025E6D5 /* frozen_inference_graph.pb */; };
 		E7B0BD201F14F36B00B79DEB /* string_int_label_map.pb.cc in Sources */ = {isa = PBXBuildFile; fileRef = E7B0BD1E1F14F36B00B79DEB /* string_int_label_map.pb.cc */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +38,7 @@
 		AF729B0F1F4919BC006D6C92 /* libtensorflow-core.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libtensorflow-core.a"; path = "../../tensorflow-master/tensorflow/contrib/makefile/gen/lib/libtensorflow-core.a"; sourceTree = "<group>"; };
 		AF729B111F4919CE006D6C92 /* libprotobuf-lite.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libprotobuf-lite.a"; path = "../../tensorflow-master/tensorflow/contrib/makefile/gen/protobuf_ios/lib/libprotobuf-lite.a"; sourceTree = "<group>"; };
 		AF729B121F4919CE006D6C92 /* libprotobuf.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libprotobuf.a; path = "../../tensorflow-master/tensorflow/contrib/makefile/gen/protobuf_ios/lib/libprotobuf.a"; sourceTree = "<group>"; };
+		AFD60CB41F4AED650052E974 /* 000001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 000001.jpg; path = ../../tensorflowmodels/VOCdevkit/VOC2007/JPEGImages/000001.jpg; sourceTree = "<group>"; };
 		CB13F7DB1F0DC7E300422EB4 /* ex_SSD_Mobilenet_TF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ex_SSD_Mobilenet_TF.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB13F7DF1F0DC7E300422EB4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CB13F7E11F0DC7E300422EB4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,8 +62,6 @@
 		CB13F82B1F0DDADC00422EB4 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		CB13F82D1F0DDAE700422EB4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		E70CD4031F1B875400B71AA5 /* tf_root.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = tf_root.xcconfig; sourceTree = "<group>"; };
-		E752A9EF1F1B8FB60025E6D5 /* mscoco_label_map.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = mscoco_label_map.txt; path = ssd_mobilenet_v1_coco_11_06_2017/mscoco_label_map.txt; sourceTree = "<group>"; };
-		E752A9F11F1BA5EF0025E6D5 /* frozen_inference_graph.pb */ = {isa = PBXFileReference; lastKnownFileType = file; name = frozen_inference_graph.pb; path = ssd_mobilenet_v1_coco_11_06_2017/frozen_inference_graph.pb; sourceTree = "<group>"; };
 		E7B0BD1E1F14F36B00B79DEB /* string_int_label_map.pb.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = string_int_label_map.pb.cc; sourceTree = "<group>"; };
 		E7B0BD1F1F14F36B00B79DEB /* string_int_label_map.pb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = string_int_label_map.pb.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -143,6 +141,7 @@
 			children = (
 				CB13F8141F0DD36E00422EB4 /* surfers.jpg */,
 				CB13F8111F0DC84500422EB4 /* image2.jpg */,
+				AFD60CB41F4AED650052E974 /* 000001.jpg */,
 			);
 			name = image;
 			sourceTree = "<group>";
@@ -166,10 +165,8 @@
 		CB13F8331F0DE67800422EB4 /* TF_Graph */ = {
 			isa = PBXGroup;
 			children = (
-				E752A9F11F1BA5EF0025E6D5 /* frozen_inference_graph.pb */,
 				AF4015231F4A5E5C00E8AD0B /* kid_new_label_map.txt */,
 				AF4015211F4A5E4C00E8AD0B /* eight_calculaiton_graph.pb */,
-				E752A9EF1F1B8FB60025E6D5 /* mscoco_label_map.txt */,
 			);
 			name = TF_Graph;
 			sourceTree = "<group>";
@@ -235,13 +232,12 @@
 			files = (
 				CB13F7EE1F0DC7E300422EB4 /* LaunchScreen.storyboard in Resources */,
 				CB13F7EB1F0DC7E300422EB4 /* Assets.xcassets in Resources */,
+				AFD60CB51F4AED650052E974 /* 000001.jpg in Resources */,
 				AF4015221F4A5E4C00E8AD0B /* eight_calculaiton_graph.pb in Resources */,
 				AF4015241F4A5E5C00E8AD0B /* kid_new_label_map.txt in Resources */,
-				E752A9F01F1B8FB60025E6D5 /* mscoco_label_map.txt in Resources */,
 				CB13F8121F0DC84500422EB4 /* image2.jpg in Resources */,
 				CB13F8151F0DD36E00422EB4 /* surfers.jpg in Resources */,
 				CB13F7E91F0DC7E300422EB4 /* Main.storyboard in Resources */,
-				E752A9F21F1BA5EF0025E6D5 /* frozen_inference_graph.pb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
